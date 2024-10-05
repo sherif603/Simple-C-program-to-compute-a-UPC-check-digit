@@ -9,3 +9,28 @@ If the UPC is scanned incorrectly, the first 11 digits (0,13800,15173) probably 
 Add the first, third, fifth, seventh, ninth, and eleventh digits [0 + 3 + 0 + 1 + 3 = 8]. Add the second, fourth, sixth, eighth, and tenth digits [1 + 8 + 0 + 5 + 7 = 21]. Multiply the first sum by 3 and add it to the second sum [(8 * 3) + 21 = 45]. Subtract 1 from the total [45 - 1 = 44]. Compute the remainder when the adjusted total is divided by 10 [4}. Subtract the remainder from 9 [9 - 4 = 5].
 ## The Objective:
 Write a C program that computes the Check Digit for an arbitrary UPC.
+## The Requirements:
+### Source Code
+Plain text file.
+Can use any text editor to create this file.
+The contents are written in a C programming language using the language's rules, syntax, and formatting.
+Ends with the .c file extension.
+Contains programming instructions.
+### Object Code
+Compiled from the source code file.
+The C language compiler.
+Contains tokenized instructions.
+Ends with the .o file extension, and they use the same file name as the source code file.
+### The Linker
+Often done as part of compiling.
+Combines object code and C library file.
+Create a binary, executable file.
+### Command Prompt Development
+Editor.
+Compiler.
+Linker.
+### Integrated Development Environment (IDE):
+The Code::Block is a free, open-source, cross-platform C, C++, and Fortran IDE built to meet the most demanding needs of its users.
+
+
+
